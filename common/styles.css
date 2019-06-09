@@ -411,6 +411,14 @@ section {
         margin-bottom: 70px;
 }
 
+.heading-food {
+        position: relative;
+        text-align: center;
+        width: 65%;
+        margin-bottom: 70px;
+        margin: auto;
+}
+
 .heading-img {
         height: auto;
         width: 40px;
@@ -7351,4 +7359,61 @@ ul.icon li a{ padding: 10px;  }
                 padding-right: 90px !important;
         }
 
+}
+
+
+.checklisttodo {
+  list-style: none;
+  display: inherit;
+  line-height: 1.6;
+  font-size: 1em;
+  padding: 1px;
+  border-spacing: 5px;
+}
+
+table#t01 {
+  width: 80%;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+table#t01 th {
+  color: white;
+  background-color: #800000;
+}
+
+
+
+/* Unordered list style */
+.entry-content ul.ast-content-ul-list {
+  margin-left:1.4em;
+}
+.entry-content ul.ast-content-ul-list li {
+  position: relative;
+  padding-left: 30px;
+  list-style: none;
+}
+.entry-content ul.ast-content-ul-list li:after{
+  position: absolute;
+  top: -webkit-calc( 50% - -1px);
+  top: calc( 50% - -1px);
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  padding-top: 2px;
+  color: #fff;
+  text-align:center;
+  background-color: #0274be;
+  content: "\e900";
+  font-size: 10px;
+  font-family: 'Astra';
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
