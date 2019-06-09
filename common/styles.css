@@ -414,7 +414,7 @@ section {
 .heading-food {
         position: relative;
         text-align: center;
-        width: 65%;
+        width: 70%;
         margin-bottom: 70px;
         margin: auto;
 }
@@ -873,12 +873,18 @@ section {
         z-index: -1;
 }
 
+/* THUMBNAIL IMAGE */
+
+.img-thumb {
+        width: 150px;
+}
+
 
 .bg-1 { background: url(../images/slider_1_1920_1200.jpg) no-repeat center; background-size: cover; }
 
-.bg-2 {   background: url(../images/story_bg_1.png) no-repeat center; background-size: 100%; }
+.bg-2 {   background: url(../images/pasta.png) no-repeat center; background-size: 75%; }
 
-.bg-3 {  background: url(../images/story_bg_2.png) no-repeat center;  background-size: 100%; }
+.bg-3 {  background: url(../images/tomatoes.png) no-repeat center;  background-size: 80%; }
 
 .bg-4 {  background: url(../images/slider_2_1920_600.jpg) no-repeat center;  background-size: cover; }
 
@@ -7372,7 +7378,7 @@ ul.icon li a{ padding: 10px;  }
 }
 
 table#t01 {
-  width: 80%;
+  width: 100%;
 }
 table#t01 tr:nth-child(even) {
   background-color: #eee;
