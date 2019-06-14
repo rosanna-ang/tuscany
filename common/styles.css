@@ -7423,3 +7423,10 @@ table#t01 th {
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
+
+
+div.columns       { width: 900px; }
+div.columns div   { width: 120px; height: 100px;  }
+div.grey          { background-color: none; float: right;}
+div.red           { background-color: none;  float: left;}
+div.clear         { clear: both; }
